@@ -1,0 +1,96 @@
+* {
+/*outline: red 1px solid;*/
+}
+
+body {
+	background-color: black;
+}
+
+.main {
+	background-color: white;
+	background-image: url('../images/village.png');
+	height: 500px;
+	margin-top: 110px;
+	min-width: 1200px;
+	padding-left: 60px;
+}
+
+.ryu {
+	float: left;
+	z-index: 150;
+}
+
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+	height: 494px;
+	width: 535px;
+}
+
+.ryu-ready, .ryu-throwing, .ryu-cool, .street-fighter-logo, .jquery-logo, .brought, .instructions {
+	display: none;
+}
+
+.ryu-ready {
+	background-image: url('../images/ryu-ready-position.gif');
+}
+
+.ryu-still {
+	background-image: url('../images/ryu-standing-still.png');
+}
+
+.ryu-throwing {
+	background-image: url('../images/ryu-throwing-hadouken.png');
+}
+
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .street-fighter-logo, .jquery-logo, .main {
+	background-repeat: no-repeat;
+}
+
+.hadouken {
+	background-image: url('../images/hadouken.gif');
+	display: none;
+	float: left;
+	height: 90px;
+	position: absolute;
+	top: 275px;
+	left: 550px;
+	width: 156px;
+	z-index: 150;
+}
+
+.street-fighter-logo {
+	background-image: url('../images/street-fighter-logo.png');	
+	float: left;
+	height: 325px;
+	margin-top: 70px;
+	width: 690px;
+}
+
+.brought {
+	float: left;
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 4em;
+	margin-top: 90px;
+}
+
+.jquery-logo {
+	background-image: url('../images/jquery-logo.png');	
+	float: left;
+	height: 135px;
+	margin-top: 155px;
+	width: 520px;
+}
+
+.instructions {
+	float: left;
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 2em;
+	margin-top: 60px;
+}
+
+p {
+	padding-bottom: .5em;
+}
