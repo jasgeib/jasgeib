@@ -113,6 +113,11 @@ RESET BUTTON
 	width: 120px;
 }
 
+.reset_button:hover {
+	cursor: pointer; 
+	
+}
+
 /*--------------------------------------------------------------
 
 TYPE HERE TO ADD ITEM
@@ -150,6 +155,23 @@ TYPE HERE TO ADD ITEM
 	{
 	color: #fff;
 }
+
+input:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFF;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFF;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFF;
+}﻿
 
 /*--------------------------------------------------------------
 
@@ -203,12 +225,10 @@ GROCERY LIST
 
 .check:hover {
 	cursor: pointer; 
-	cursor: hand;
 }
 
 .delete:hover {
 	cursor: pointer; 
-	cursor: hand;
 }
 
 .delete {
